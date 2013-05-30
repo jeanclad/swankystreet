@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2175BCCE1755B1C400D8B9A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175BCCD1755B1C400D8B9A0 /* UIKit.framework */; };
+		2175BCD01755B1C400D8B9A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175BCCF1755B1C400D8B9A0 /* Foundation.framework */; };
+		2175BCD21755B1C400D8B9A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175BCD11755B1C400D8B9A0 /* CoreGraphics.framework */; };
+		2175BCD81755B1C400D8B9A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2175BCD61755B1C400D8B9A0 /* InfoPlist.strings */; };
+		2175BCDA1755B1C400D8B9A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175BCD91755B1C400D8B9A0 /* main.m */; };
+		2175BCDE1755B1C400D8B9A0 /* InstaShareGramAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175BCDD1755B1C400D8B9A0 /* InstaShareGramAppDelegate.m */; };
+		2175BCE01755B1C400D8B9A0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2175BCDF1755B1C400D8B9A0 /* Default.png */; };
+		2175BCE21755B1C400D8B9A0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2175BCE11755B1C400D8B9A0 /* Default@2x.png */; };
+		2175BCE41755B1C400D8B9A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2175BCE31755B1C400D8B9A0 /* Default-568h@2x.png */; };
+		2175BCEB1755B2ED00D8B9A0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2175BCEA1755B2ED00D8B9A0 /* Icon@2x.png */; };
+		2175BCED1755B2F900D8B9A0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2175BCEC1755B2F900D8B9A0 /* Icon.png */; };
+		2175BCF11755BA3900D8B9A0 /* InstaShareGramMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2175BCEF1755BA3900D8B9A0 /* InstaShareGramMainViewController.m */; };
+		2175BCF21755BA3900D8B9A0 /* InstaShareGramMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2175BCF01755BA3900D8B9A0 /* InstaShareGramMainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2175BCCA1755B1C400D8B9A0 /* instasharegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instasharegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2175BCCD1755B1C400D8B9A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2175BCCF1755B1C400D8B9A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2175BCD11755B1C400D8B9A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2175BCD51755B1C400D8B9A0 /* instasharegram-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "instasharegram-Info.plist"; sourceTree = "<group>"; };
+		2175BCD71755B1C400D8B9A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2175BCD91755B1C400D8B9A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2175BCDB1755B1C400D8B9A0 /* instasharegram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "instasharegram-Prefix.pch"; sourceTree = "<group>"; };
+		2175BCDC1755B1C400D8B9A0 /* InstaShareGramAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstaShareGramAppDelegate.h; sourceTree = "<group>"; };
+		2175BCDD1755B1C400D8B9A0 /* InstaShareGramAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaShareGramAppDelegate.m; sourceTree = "<group>"; };
+		2175BCDF1755B1C400D8B9A0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2175BCE11755B1C400D8B9A0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2175BCE31755B1C400D8B9A0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2175BCEA1755B2ED00D8B9A0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2175BCEC1755B2F900D8B9A0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2175BCEE1755BA3900D8B9A0 /* InstaShareGramMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaShareGramMainViewController.h; sourceTree = "<group>"; };
+		2175BCEF1755BA3900D8B9A0 /* InstaShareGramMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstaShareGramMainViewController.m; sourceTree = "<group>"; };
+		2175BCF01755BA3900D8B9A0 /* InstaShareGramMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstaShareGramMainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2175BCC71755B1C300D8B9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2175BCCE1755B1C400D8B9A0 /* UIKit.framework in Frameworks */,
+				2175BCD01755B1C400D8B9A0 /* Foundation.framework in Frameworks */,
+				2175BCD21755B1C400D8B9A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2175BCC11755B1C300D8B9A0 = {
+			isa = PBXGroup;
+			children = (
+				2175BCEC1755B2F900D8B9A0 /* Icon.png */,
+				2175BCEA1755B2ED00D8B9A0 /* Icon@2x.png */,
+				2175BCD31755B1C400D8B9A0 /* instasharegram */,
+				2175BCCC1755B1C400D8B9A0 /* Frameworks */,
+				2175BCCB1755B1C400D8B9A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2175BCCB1755B1C400D8B9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2175BCCA1755B1C400D8B9A0 /* instasharegram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2175BCCC1755B1C400D8B9A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2175BCCD1755B1C400D8B9A0 /* UIKit.framework */,
+				2175BCCF1755B1C400D8B9A0 /* Foundation.framework */,
+				2175BCD11755B1C400D8B9A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2175BCD31755B1C400D8B9A0 /* instasharegram */ = {
+			isa = PBXGroup;
+			children = (
+				2175BCF41755BA6300D8B9A0 /* Resources */,
+				2175BCF31755BA4100D8B9A0 /* Classes */,
+				2175BCD41755B1C400D8B9A0 /* Supporting Files */,
+			);
+			path = instasharegram;
+			sourceTree = "<group>";
+		};
+		2175BCD41755B1C400D8B9A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2175BCD51755B1C400D8B9A0 /* instasharegram-Info.plist */,
+				2175BCD61755B1C400D8B9A0 /* InfoPlist.strings */,
+				2175BCD91755B1C400D8B9A0 /* main.m */,
+				2175BCDB1755B1C400D8B9A0 /* instasharegram-Prefix.pch */,
+				2175BCDF1755B1C400D8B9A0 /* Default.png */,
+				2175BCE11755B1C400D8B9A0 /* Default@2x.png */,
+				2175BCE31755B1C400D8B9A0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2175BCF31755BA4100D8B9A0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2175BCDC1755B1C400D8B9A0 /* InstaShareGramAppDelegate.h */,
+				2175BCDD1755B1C400D8B9A0 /* InstaShareGramAppDelegate.m */,
+				2175BCEE1755BA3900D8B9A0 /* InstaShareGramMainViewController.h */,
+				2175BCEF1755BA3900D8B9A0 /* InstaShareGramMainViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2175BCF41755BA6300D8B9A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2175BCF01755BA3900D8B9A0 /* InstaShareGramMainViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2175BCC91755B1C300D8B9A0 /* instasharegram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2175BCE71755B1C400D8B9A0 /* Build configuration list for PBXNativeTarget "instasharegram" */;
+			buildPhases = (
+				2175BCC61755B1C300D8B9A0 /* Sources */,
+				2175BCC71755B1C300D8B9A0 /* Frameworks */,
+				2175BCC81755B1C300D8B9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = instasharegram;
+			productName = instasharegram;
+			productReference = 2175BCCA1755B1C400D8B9A0 /* instasharegram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2175BCC21755B1C300D8B9A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = InstaShareGram;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Swanky Street";
+			};
+			buildConfigurationList = 2175BCC51755B1C300D8B9A0 /* Build configuration list for PBXProject "instasharegram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2175BCC11755B1C300D8B9A0;
+			productRefGroup = 2175BCCB1755B1C400D8B9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2175BCC91755B1C300D8B9A0 /* instasharegram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2175BCC81755B1C300D8B9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2175BCD81755B1C400D8B9A0 /* InfoPlist.strings in Resources */,
+				2175BCE01755B1C400D8B9A0 /* Default.png in Resources */,
+				2175BCE21755B1C400D8B9A0 /* Default@2x.png in Resources */,
+				2175BCE41755B1C400D8B9A0 /* Default-568h@2x.png in Resources */,
+				2175BCEB1755B2ED00D8B9A0 /* Icon@2x.png in Resources */,
+				2175BCED1755B2F900D8B9A0 /* Icon.png in Resources */,
+				2175BCF21755BA3900D8B9A0 /* InstaShareGramMainViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2175BCC61755B1C300D8B9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2175BCDA1755B1C400D8B9A0 /* main.m in Sources */,
+				2175BCDE1755B1C400D8B9A0 /* InstaShareGramAppDelegate.m in Sources */,
+				2175BCF11755BA3900D8B9A0 /* InstaShareGramMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2175BCD61755B1C400D8B9A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2175BCD71755B1C400D8B9A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2175BCE51755B1C400D8B9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2175BCE61755B1C400D8B9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2175BCE81755B1C400D8B9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instasharegram/instasharegram-Prefix.pch";
+				INFOPLIST_FILE = "instasharegram/instasharegram-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2175BCE91755B1C400D8B9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "instasharegram/instasharegram-Prefix.pch";
+				INFOPLIST_FILE = "instasharegram/instasharegram-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2175BCC51755B1C300D8B9A0 /* Build configuration list for PBXProject "instasharegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2175BCE51755B1C400D8B9A0 /* Debug */,
+				2175BCE61755B1C400D8B9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2175BCE71755B1C400D8B9A0 /* Build configuration list for PBXNativeTarget "instasharegram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2175BCE81755B1C400D8B9A0 /* Debug */,
+				2175BCE91755B1C400D8B9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2175BCC21755B1C300D8B9A0 /* Project object */;
+}
